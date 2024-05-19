@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+	  "target": "ESNext",
+	  "module": "NodeNext",
+	  "moduleResolution": "NodeNext",
+	  "experimentalDecorators": true,
+	  "emitDecoratorMetadata": true,
+	  "resolveJsonModule": true,
+	  "esModuleInterop": true,
+	  "rootDir": "./src",
+	  "baseUrl": "./",
+	  "outDir": "./dist",
+	  "paths": {
+		"#core": ["src/core/index.ts"],
+		"#database": ["src/database/index.ts"],
+		"#settings": ["src/settings/index.ts"],
+		"#utils": ["src/utils/index.ts"]
+	  }
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+  }
+  
